@@ -103,3 +103,24 @@ git push
 git merge hint6
 
 ============================================================
+=======================INSTRUCTIUNI 6=======================
+
+Vesti bune! A existat o scurgere de informatii si numele unui suspect a fost afisat din greseala!
+
+Acest lucru s-a intamplat pe branch-ul "hint7". Pentru a obtine informatia, muta-te pe branch-ul hint7, copiaza id-ul commit-ului cu numele "Remove unnecessary suspects", muta-te inapoi pe branch-ul tau si foloseste "git cherry-pick" pentru a copia commit-ul.
+
+Publica modificarile, apoi fa merge la branch-ul "hint8" in branch-ul tau.
+
+---------------------------COMENZI--------------------------
+
+git checkout hint7
+
+git checkout <your_branch>
+
+git cherry_pick <commit_id>
+
+git push
+
+git merge hint8
+
+============================================================

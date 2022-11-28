@@ -25,3 +25,18 @@ git push --set-upstream origin <nume_branch>
 git merge suspects
 
 ============================================================
+=======================INSTRUCTIUNI 2=======================
+
+Felicitari! Ai primit lista de suspecti in fisierul "suspects.txt".
+
+Publica modificarile din branch-ul tau cu "git push", pentru a-i informa si pe ceilalti detectivi.
+
+Pentru a continua investigatia, fa merge la branch-ul "hint1" in branch-ul tau.
+
+---------------------------COMENZI--------------------------
+
+git push
+
+git merge hint1
+
+============================================================

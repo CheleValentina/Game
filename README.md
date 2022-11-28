@@ -82,3 +82,24 @@ git push
 git merge hint3
 
 ============================================================
+=======================INSTRUCTIUNI 5=======================
+
+Au mai ramas doar 3 suspecti. Pentru a primi informatii importante, fa merge la branch-ul "hint4" in branch-ul tau, apoi fa merge la branch-ul "hint5" in branch-ul tau. Atentie! Va trebui sa rezolvi un conflict.
+
+Dupa ce rezolvi conflictul, urmeaza instructiunea primita in "instruction.txt", adauga fisierele "instruction.txt" si fisierul "suspects.txt" in staging area, fa commit, publica modificarile, apoi fa merge la branch-ul "hint6" pentru a continua investigatia.
+
+---------------------------COMENZI--------------------------
+
+git merge hint4
+
+git merge hint5
+
+git add <nume_fisier>
+
+git commit -m "Mesaj de commit"
+
+git push
+
+git merge hint6
+
+============================================================

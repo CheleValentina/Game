@@ -40,3 +40,28 @@ git push
 git merge hint1
 
 ============================================================
+=======================INSTRUCTIUNI 3=======================
+
+Vesti bune! In urma unor investigatii, o parte dintre suspecti au fost eliminati din lista de suspecti.
+
+Verifica sa vezi care suspecti au fost eliminati cu "git diff <id_commit_anterior> suspects.txt". 
+
+Deschide fisierul creat de tine la pasul anterior cu investigatia ta, scrie "Nu sunt suspecti:" in fisier, apoi adauga numele suspectilor care au fost eliminati (foloseste copy-paste). Adauga fisierul tau in staging area, apoi fa commit la modificari.
+
+Publica modificarile pentru a-i informa si pe ceilalti detectivi.
+
+Pentru a continua investigatia, fa merge la branch-ul "hint2" in branch-ul tau.
+
+---------------------------COMENZI--------------------------
+
+git diff <commit_id> suspects.txt
+
+git add <nume_fisier>
+
+git commit -m "Mesaj de commit"
+
+git push
+
+git merge hint2
+
+============================================================

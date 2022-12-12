@@ -65,3 +65,20 @@ git push
 git merge hint2
 
 ============================================================
+=======================INSTRUCTIUNI 4=======================
+
+Oops! Cativa suspecti au fost stersi din greseala! Fa revert la ultimele 3 commit-uri care au denumirea "Remove suspects" pentru a primi inapoi suspectii.
+
+Publica modificarile, apoi fa merge la branch-ul "hint3" in branch-ul tau pentru a continua investigatia.
+
+---------------------------COMENZI--------------------------
+
+git log
+
+git revert <commit_id>
+
+git push
+
+git merge hint3
+
+============================================================
